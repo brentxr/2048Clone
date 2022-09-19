@@ -70,6 +70,11 @@ public class TileManager : MonoBehaviour
 
     }
 
+    private void OnEnable()
+    {
+        
+    }
+
     public void AddSore(int value)
     {
         _score += value;
